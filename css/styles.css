@@ -216,7 +216,7 @@ body {
 }
 
 .advantages-list {
-  margin-left: -30px;
+  margin-right: -30px;
   display: flex;
 }
 .advantages-icon {
