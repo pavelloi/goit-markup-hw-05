@@ -636,5 +636,5 @@ body {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--secondary-title-text);
-  padding: 63px 24px;
+  padding: 63px 24px 173px 24px;
 }
