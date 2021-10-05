@@ -149,6 +149,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-title-text);
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-item-link:focus,
@@ -170,6 +173,9 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hero */
@@ -422,6 +428,9 @@ body {
   fill: var(--icons-color);
   justify-content: center;
   align-items: center;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-link:focus,
@@ -460,6 +469,9 @@ body {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  transition-property: fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company:hover,
@@ -501,6 +513,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-title-text);
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel-link,
 .mail-link {
@@ -510,6 +525,9 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:focus,
 .address-link:hover,
@@ -559,6 +577,9 @@ body {
   border-radius: 22px;
   justify-content: center;
   align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -600,6 +621,9 @@ body {
   cursor: pointer;
   border-radius: 4px;
   border: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-item.current {
@@ -677,12 +701,15 @@ body {
   top: 0;
   width: 370px;
   height: 294px;
-  background-color: rgba(33, 150, 243, 0.9);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
 }
 
 .overlay-text:hover,
 .overlay-text:focus {
+  background-color: rgba(33, 150, 243, 0.9);
   opacity: 1;
 }
 
