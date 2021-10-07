@@ -356,6 +356,9 @@ body {
 }
 
 .text-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   width: 370px;
@@ -371,7 +374,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-title-text);
-  padding: 27px 0;
 }
 
 .team-cards {
