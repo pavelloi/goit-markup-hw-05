@@ -335,32 +335,27 @@ body {
   color: var(--primary-title-text);
 }
 
-.work-images {
-  position: relative;
-}
-.thumb {
-  position: absolute;
-  bottom: 0;
-}
-
-.work-list,
-.text-thumbs {
+.work-list {
   display: flex;
   list-style: none;
   margin-left: -30px;
 }
 
+.work-thumb {
+  position: relative;
+}
 .work-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
 .text-thumb {
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
   width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
